@@ -1,0 +1,14 @@
+ini, TOML
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.buil_meta"
+
+[project]
+name = "geopro"
+version = "0.0.1"
+description = "A Python package for modeling and data processing"
+dependencies = [
+    "numpy"
+    "scikit-learn"
+]
